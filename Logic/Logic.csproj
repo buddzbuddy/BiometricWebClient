@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Suprema.UFMatcher">
+      <HintPath>G:\Spis\BioMetricSource2\BioMetricToHashemat - Copy\BioMetric\Lib\Suprema.UFMatcher.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -39,7 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="DB.cs" />
+    <Compile Include="Error.cs" />
+    <Compile Include="Matcher.cs" />
+    <Compile Include="MemDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -40,6 +40,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Entities\Applicant.cs" />
+    <Compile Include="Entities\EnrollementRequest.cs" />
+    <Compile Include="Entities\EnrollementResponse.cs" />
+    <Compile Include="Entities\ErrorResponse.cs" />
+    <Compile Include="Entities\FingerprintTemplates.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
